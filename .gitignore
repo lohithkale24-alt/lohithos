@@ -1,0 +1,16 @@
+# Object and temporary build files
+*.o
+*.elf
+*.tmp
+*.log
+
+# Keep the final bootable images for easy download/release
+!lohithos.iso
+!lohithos_usb.img
+!kernel.bin
+
+# Editor & OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
